@@ -6,3 +6,10 @@ let laptop = {
 }
 
 console.log('laptop');
+
+let greet= () => {
+    console.log('Hello World');
+    return 1;
+}
+
+console.log(greet());
